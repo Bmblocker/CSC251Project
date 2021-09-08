@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Room{
+public class Room
+{
    
    // FIELDS
       
@@ -139,6 +140,12 @@ public class Room{
             System.out.print("Please select from the options above: ");
             shade = keyboard.nextInt();
             
+            while (shade < 1 || shade > 3)
+                  {
+                     System.out.print("Selection Invalid! Please select from the options above: ");
+                     shade = keyboard.nextInt();
+                  }
+            
             switch (shade)
             {
                case 1:
@@ -149,6 +156,9 @@ public class Room{
                   break;
                case 3:
                   amountOfShade = "Abundant";
+                  break;
+               default:
+                  amountOfShade = "Invalid";
                   break;      
             }
             
