@@ -1,0 +1,15 @@
+Bedroom
+6
+8
+Moderate
+
+Master Bedroom
+6
+8
+Abundant
+
+Kitchen
+6
+8
+Little
+

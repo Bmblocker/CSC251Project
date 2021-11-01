@@ -1,0 +1,1 @@
+enum ACType{Mounted, Portable}
